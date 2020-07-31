@@ -1,0 +1,13 @@
+.corpo__erro {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+
+@media (max-width: 768px) {
+    .corpo__erro {
+        flex-direction: column;
+    }
+}

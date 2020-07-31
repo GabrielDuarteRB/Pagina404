@@ -1,0 +1,51 @@
+.texto__erro {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__titulo__erro {
+    font-family: Roboto mono, monospace;
+    font-size: 4rem;
+    line-height: 6rem;
+    word-spacing: 0.5rem;
+}
+
+.texto__paragrafo__erro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    padding-top: 5%;
+    word-spacing: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .texto__titulo__erro {
+        justify-content: center;
+    }
+
+    .texto__titulo__erro {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .texto__paragrafo__erro {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+@media (max-width: 525px) {
+     .texto__titulo__erro {
+        padding-top: 15%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .texto__paragrafo__erro {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+}

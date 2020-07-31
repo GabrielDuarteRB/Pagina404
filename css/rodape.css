@@ -1,0 +1,23 @@
+footer {
+    bottom: 2% ;
+    position: absolute;
+    width:100%;
+}
+
+.rodape__texto {
+    font-family: Roboto mono, monospace;
+    font-size: 1rem;
+    text-align: center;
+} 
+
+.meuInsta {
+    color:black;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        bottom: 0;
+    }
+    
+}

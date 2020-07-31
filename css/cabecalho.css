@@ -1,0 +1,13 @@
+.cabecalho__erro {
+    font-family: Roboto Mono, monospace;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 2% 4.5%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .cabecalho__erro{
+    padding-left: 2.5%;
+    }
+}

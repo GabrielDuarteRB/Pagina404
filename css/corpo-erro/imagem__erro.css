@@ -1,0 +1,10 @@
+.imagem__erro {
+    padding-left: 4.5%;
+    width: 28%;
+}
+
+@media (max-width: 768px) {
+    .imagem__erro{
+        width: 35%;
+    }
+}

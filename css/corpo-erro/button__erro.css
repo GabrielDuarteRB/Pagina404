@@ -1,0 +1,19 @@
+.button__erro {
+    background: black;
+    color: white;
+    margin: 3rem auto auto 0;
+    padding: 1.5rem 2.5rem;
+    text-decoration: none;
+}
+
+.button__erro:hover{
+    background: rgb(255, 170, 12);
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .button__erro{
+        margin:  auto auto 3rem;
+    }
+    
+}
